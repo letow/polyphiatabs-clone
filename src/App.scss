@@ -9,3 +9,12 @@ body{
     max-width: 1220px;
     margin: 0 auto;
 }
+.link{
+    text-decoration: none;
+    &:active, &:visited{
+        color: #333;
+    }
+    &:hover{
+        color: #999;
+    }
+}

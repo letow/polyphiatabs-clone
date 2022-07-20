@@ -13,20 +13,24 @@ hr{
     background-color: #333;
     margin: 0;
 }
+.link{
+    text-decoration: none;
+    &:active, &:visited{
+        color: #333;
+    }
+    &:hover{
+        color: #999;
+    }
+}
 .icon{
     font-size: 25px;
     line-height: 50px;
     text-align: center;
     margin-right: 8px;
-    &_search{
-        text-decoration: none;
-    }
     &_cart{
         font-size: 20px;
     }
-    &:active, &:visited{
-        color: #333;
-    }
+    
 }
 .search{
     &_bar{
@@ -49,12 +53,5 @@ hr{
     &_text{
         display: flex;
         align-items: center;
-        text-decoration: none;
-        &:active, &:visited{
-            color: #333;
-        }
-        &:hover{
-            color: #999;
-        }
     }
 }
