@@ -1,0 +1,16 @@
+﻿.Main{}
+.sidebar{
+    width: 20%;
+    &_icon{
+        height: 20px;
+        filter: grayscale(100%);
+        margin-top: 10px;
+        margin-right: 6px;
+        &:hover{
+            opacity: 0.7;
+        }
+    }
+}
+#twitter{
+    filter: brightness(0.6) grayscale(100%);
+}
