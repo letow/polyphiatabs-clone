@@ -1,4 +1,6 @@
-﻿.Main{}
+﻿.Main{
+    display: flex;
+}
 .sidebar{
     width: 20%;
     &_icon{
@@ -13,4 +15,11 @@
 }
 #twitter{
     filter: brightness(0.6) grayscale(100%);
+}
+.main_content{
+    width: 80%;
+}
+.header_img{
+    width: 100%;
+    margin-bottom: 30px;
 }
