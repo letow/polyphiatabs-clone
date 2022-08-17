@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <>
       <div className={classes.Header}>
-          <hr />
+          <hr className={classes.hrHeader} />
           <form action="#" className={classes.search_form}>
             <a href='#' className={`material-symbols-outlined ${classes.icon} ${classes.icon_search} link`}>search</a>
             <input type="search" name="search" className={classes.search_bar} placeholder='Search'/>

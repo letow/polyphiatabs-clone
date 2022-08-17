@@ -4,7 +4,7 @@
     justify-content: space-between;
     padding: 7.5px 0;
 }
-hr{
+.hrHeader{
     position: absolute;
     top: 0;
     left: 0;
@@ -38,6 +38,9 @@ hr{
         font-size: 13px;
         border: none;
         padding: 8px;
+        &:focus::placeholder{
+            color: transparent;
+        }
     }
     &_form{
         display: flex;
