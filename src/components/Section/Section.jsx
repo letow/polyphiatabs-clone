@@ -1,4 +1,4 @@
-﻿import React from 'react'
+﻿import React, { useState } from 'react'
 import classes from './Section.module.scss'
 import SectionItem from './SectionItem/SectionItem'
 
