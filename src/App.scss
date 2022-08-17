@@ -3,11 +3,13 @@ body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    font-size: 15px;
+    color:#333
 }
 .App{
-    width: 93vw;
-    max-width: 1220px;
+    max-width: 1260px;
     margin: 0 auto;
+    padding: 0 30px;
 }
 .link{
     text-decoration: none;
@@ -15,6 +17,10 @@ body{
         color: #333;
     }
     &:hover{
-        color: #999;
+        opacity: 0.7;
     }
+}
+#hrLast{
+    margin: 2em;
+    opacity: 0;
 }
