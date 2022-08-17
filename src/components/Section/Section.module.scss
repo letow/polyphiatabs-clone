@@ -1,5 +1,10 @@
 ﻿.Section{
-
+    margin-bottom: 2em;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
 }
 .header2{
     font-family: 'PT Sans',sans-serif;
