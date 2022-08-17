@@ -3,8 +3,6 @@ import './App.scss';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Main from './components/Main/Main';
-import Section from './components/Section/Section';
-import SectionItem from './components/Section/SectionItem/SectionItem';
 
 function App() {
   const [sections, setSections] = useState([
@@ -13,10 +11,10 @@ function App() {
   ])
 
   return (
-    <div className="App">
+    <div className='App'>
       <Header/>
       <Main sections={sections}/>
-      
+      <hr id='hrLast' />
       <Footer/>
     </div>
   );
