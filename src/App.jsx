@@ -15,10 +15,8 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <Main/>
-      {sections.map((title) => 
-        <Section sectionTitle={title} />  
-      )}
+      <Main sections={sections}/>
+      
       <Footer/>
     </div>
   );

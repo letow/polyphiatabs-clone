@@ -7,7 +7,7 @@ import youtube from './logo/youtube.svg'
 import header from './tab_store_header.webp'
 import Section from '../Section/Section'
 
-export default function Main() {
+export default function Main({sections}) {
   return (
     <div className={classes.Main}>
         <div className={classes.sidebar}>
@@ -18,7 +18,9 @@ export default function Main() {
         </div>
         <div className={classes.main_content}>
           <img className={classes.header_img} src={header} alt="header_img" />
-          <Section/>
+          {sections.map((title) => 
+            <Section sectionTitle={title} />  
+          )}
         </div>
     </div>
   )
