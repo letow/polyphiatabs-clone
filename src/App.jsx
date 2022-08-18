@@ -5,10 +5,10 @@ import Footer from './components/Footer/Footer';
 import Main from './components/Main/Main';
 
 function App() {
-  const [sections, setSections] = useState([
+  const sections = [
     'Featured',
     'All Tabs'
-  ])
+  ]
 
   return (
     <div className='App'>
